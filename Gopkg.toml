@@ -28,3 +28,9 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+
+[metadata.heroku]
+  root-package = "github.com/wutmaster/reftful"
+  go-version = "1.11.2"
+  install = [ "./..." ]
